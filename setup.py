@@ -28,7 +28,7 @@ setup(
     author_email = 'yinhuanyicn@gmail.com',
     url = 'https://github.com/yinhuanyi/feishu-plain-message',
     license = "MIT",
-    version = '1.0.0',
+    version = '1.0.1',
     description = 'Send Plain Message To Feishu',
     long_description = long_description,
     packages = [
