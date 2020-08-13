@@ -40,7 +40,7 @@ class FeishuBase:
         return response
 
     # 发送告警消息
-    def send_message(self, title, content, workflow_addr):
+    def send_message(self, title, content):
         send_url = "https://open.feishu.cn/open-apis/message/v4/send/"
         headers = {"Authorization": "Bearer %s" % self.tenant_access_token, "Content-Type": "application/json"}
         data = {
@@ -61,11 +61,6 @@ class FeishuBase:
                                     "tag": "at",
                                     "user_id": self.user_id
 
-                                },
-                                {
-                                    "tag": "a",
-                                    "text": "\n立即处理工单",
-                                    "href": "{}".format(workflow_addr,)
                                 },
                             ],
                         ]

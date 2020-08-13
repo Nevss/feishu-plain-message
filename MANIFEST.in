@@ -1,2 +1,2 @@
-include README.md *.png
+include README.rst *.png
 recursive-include tests *.py

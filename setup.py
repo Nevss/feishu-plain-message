@@ -23,20 +23,20 @@ with open("README.rst", "r") as f:
   long_description = f.read()
 
 setup(
-    name = 'feishu-message',
+    name = 'feishu-plain-message',
     author = 'Robby',
     author_email = 'yinhuanyicn@gmail.com',
-    url = 'https://github.com/yinhuanyi/feishu-message',
+    url = 'https://github.com/yinhuanyi/feishu-plain-message',
     license = "MIT",
     version = '1.0.0',
-    description = 'Send Message To Feishu',
+    description = 'Send Plain Message To Feishu',
     long_description = long_description,
     packages = [
-        'feishu_message',
+        'feishu_plain_message',
     ],
     install_requires = [
         'requests',
     ],
     dependency_links = [],
-    package_data = package_data("feishu_message",),
+    package_data = package_data("feishu_plain_message",),
 )

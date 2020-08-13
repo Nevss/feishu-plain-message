@@ -14,7 +14,7 @@ from .message_base import FeishuBase
 
 
 
-class FeishuMessage(FeishuBase):
+class FeishuPlainMessage(FeishuBase):
 
     def _get_tenant_access_token(self, app_id, app_secret):
         tokenurl = "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal/"

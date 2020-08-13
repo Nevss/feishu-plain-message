@@ -1,23 +1,21 @@
 （一）feishu-message 模块使用方法
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================
 
-    **``(一)：安装``**
+> **`(一)：安装`**
 
--  从 PYPI 安装
+-   从 PYPI 安装
 
-::
+<!-- -->
 
     pip install -U  feishu-plain-message
 
--  从 Github 安装
+-   从 Github 安装
 
-::
+<!-- -->
 
     pip install git+https://github.com/yinhuanyi/feishu-plain-message.git
 
     **``(二)：使用方法``**
-
-::
 
     from feishu_message import FeishuPlainMessage
 
@@ -27,4 +25,4 @@
         feishu.send_message('工单类型+工单ID', '工单基本内容')
 
 欢迎提交PR
-==========
+----------
