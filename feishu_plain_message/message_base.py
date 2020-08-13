@@ -6,12 +6,9 @@
 @Function: 
 """
 
-import os
 import json
-from datetime import datetime
-
 import requests
-from requests.cookies import RequestsCookieJar
+
 
 
 class FeishuBase:

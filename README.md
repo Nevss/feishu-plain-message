@@ -20,7 +20,7 @@ pip install git+https://github.com/yinhuanyi/feishu-plain-message.git
 > **``(二)：使用方法``**
 
 ```
-from feishu_message import FeishuPlainMessage
+from feishu_plain_message import FeishuPlainMessage
 
 if __name__ == '__main__':
     feishu = FeishuPlainMessage('13970236750', 'cli_9f9b87ccdsc970d00b', 'SVWv3GtMxkVlPgo0feOsdsUhyA728025qnf')
